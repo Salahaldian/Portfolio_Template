@@ -1,0 +1,81 @@
+/*css for Skills*/
+.item-Skills {
+    background-color: #eee; 
+    height: 680px; 
+}
+.box-item{
+    position: relative; 
+    top: 150px;
+    left: 150px; 
+}
+.h2-Skills {
+    color: orange;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.box-item p {
+    font-size: 25px;
+    width: calc( 40% - 50px); 
+}
+.button1 {
+    border: 3px solid #4CAF50; 
+    padding: 10px 20px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin-top: 45px; 
+}
+.button1 a {
+    text-decoration:none; 
+    color: #4CAF50;
+}
+.three {
+    margin-top: -280px; 
+    margin-right: 80px; 
+    float: right;
+    width: 40%; 
+}
+.progress {
+    position: relative; 
+    width: 450px; 
+    height: 40px; 
+    background-color: rgb(175, 175, 175); 
+    margin: 10px; 
+    margin-left: 65px; 
+}
+.html-bar-dis {
+    background-color: white; 
+    padding: 25px; 
+    margin: 15px; 
+}
+.css-bar-dis {
+    background-color: white;
+    padding: 25px; 
+    margin: 15px; 
+}
+.js-bar-dis {
+    background-color: white;
+    padding: 25px;
+    margin: 15px; 
+}
+.name-bar-lan1 {
+    display: inline; 
+    float: left; 
+    margin-top: 20px; 
+}
+.name-bar-lan2 {
+    margin-top: 10px; 
+    display: inline; 
+    float: left; 
+}
+.name-bar-lan3 {
+    margin-top: 5px; 
+    display: inline;
+    float: left; 
+}
+.progress span {
+    position: absolute;
+    height: 100%; 
+    background-color: orange;
+    transition: width 0.3s linear; 
+}

@@ -1,0 +1,44 @@
+/*css for our-costomer*/
+.our-costomer {
+    background-color: #eee;
+    margin: auto; 
+    height: 500px; 
+}
+.sec-cost {
+    margin-top: 35px; 
+}
+.sec-cost .brdr {
+    width: 80px; 
+    height: 3px;
+    background-color: orange; 
+    margin: auto;
+    margin-top: -15px; 
+}
+.cost {
+    width: 30%;
+    float: right;
+    text-align: center; 
+    margin-right: 35px;
+}
+.cost img {
+    border: 3px solid orange; 
+    border-radius: 50%; 
+    opacity: 0.5; 
+    transition: 2s ease-out 10ms; 
+}
+.cost img:hover {
+    opacity: 1;
+}
+.cost p {
+    padding: 0px 65px; 
+}
+.h2-our-costomer {
+    text-align: center;
+    padding: 30px; 
+    color: orange;
+}
+.name-cost1 ,
+.name-cost2 ,
+.name-cost3 {
+    color: purple; 
+}

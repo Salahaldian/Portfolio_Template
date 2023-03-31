@@ -1,0 +1,35 @@
+/*css for About Us*/
+.div1{
+    margin: 10px 50px; 
+    display: flex; 
+    text-align: left; 
+}
+.box{
+    display: inline-block; 
+    padding-bottom: 20px; 
+    margin-bottom: 20px; 
+} 
+.box img {
+    margin: 100px;
+    position: relative;
+}
+.super-div-about {
+    width: 100%;}
+.box-2ml-51 {
+    margin-left: 80px;
+    margin-top: 80px; 
+    position: relative;
+}
+.h3-about {
+    color: orange;
+    font-size: 30px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.box img{
+    width: 350px;
+}
+.box-2ml-51 p{
+    padding-left: 20px; 
+    font-size: 25px; 
+}

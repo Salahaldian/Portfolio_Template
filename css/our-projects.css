@@ -1,0 +1,55 @@
+/*css for our-projects*/
+.h2-our-projects {
+    padding-top: 35px; 
+    color: orange; 
+    text-align: center; 
+}
+.brdr3 {
+    width: 80px; 
+    height: 3px; 
+    background-color: orange; 
+    margin: auto; 
+    margin-top: 10px; 
+}
+.contener {
+    max-width: 1200px; 
+    margin-left: 150px; 
+    overflow: auto; 
+}
+.images{
+    margin: 5px; 
+    border: 3px solid rgb(241, 241, 241); 
+    float: left;
+    width: 390px;
+    height: 350px; 
+    position: relative;
+    padding: 10px;
+    border: outset ,inset; 
+    outline-style: outset;
+    outline-width:1px;
+    outline-color: rgb(77, 76, 76);
+    border-style: solid; 
+}
+.images img{
+    width: 100%; 
+    height: auto; 
+}
+.hidden{
+    width: 389px;
+    height: 350px;
+    margin-left: -12px; 
+    margin-top: -2px; 
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    padding-top: 150px;
+    text-align: center; 
+    color: white; 
+    font-size: 35px;
+    transition: 2s ease-out 10ms; 
+}
+.images:hover .hidden{
+    opacity: 0.9; 
+    transition: 2s ease-out 10ms; 
+}

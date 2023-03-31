@@ -1,0 +1,59 @@
+/*css for Contact-Us*/
+.panel-cont{
+    width: 1530px; 
+}
+.class-input {
+    margin-left: 80px; 
+    margin-right: -150px; 
+}
+.super-cont{
+    background: url("../images/map3.jpg"); 
+    background-repeat: no-repeat;
+    background-size:contain; 
+    background-position: center;
+    min-height: 120vh;
+    width: auto; 
+    position: relative;
+    margin-top: 50px; 
+    margin-bottom: -100px; 
+}
+.h2-Contact-Us {
+    text-align: center; 
+    padding: 30px;
+    color: orange; 
+}
+.brdr2 {
+    width: 80px; 
+    height: 3px; 
+    background-color: orange; 
+    margin: auto; 
+    margin-top: -20px; 
+}
+div .input1 input {
+    margin-left: 200px; 
+    margin-top: 70px; 
+    border: none; 
+    width: 30%; 
+    background-color: #ddd; 
+    margin-bottom: -1500px; 
+    padding: 20px; 
+}
+.butt-cont {
+    background-color: orange; 
+    border: none; 
+    color: #fff; 
+    padding: 20px; 
+    margin-left: 200px; 
+    margin-top: 50px; 
+    width: 30%; 
+} 
+div .input2 textarea {
+    float: right; 
+    border: none; 
+    background-color: #ddd; 
+    width: 500px; 
+    margin-right: 350px; 
+    margin-top: -460px;
+    height: 465px; 
+    padding: 20px; 
+}
